@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.jumbotron {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.navbar{
+  color: white;
+}
+.card{
+  margin-right: 200px;
+}
