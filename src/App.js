@@ -4,13 +4,14 @@ import Jumbotron from "./components/Jumbotron";
 import "../src/styles/App.css";
 import Cards from "./components/Cards";
 import Card from "./components/Cards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
       <Jumbotron />
-      <div className="container">
+      <div className="card-holder">
         <div className="row card-deck justify-content-md-center">
           <div className="col col-md-4 col-lg-3 col-sm-6">
             <Card />
@@ -26,6 +27,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
 
     </React.Fragment>
   );

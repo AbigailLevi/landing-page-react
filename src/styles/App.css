@@ -42,9 +42,7 @@
   margin-bottom: 20px;
   margin-top: 80px;
 }
-.navbar{
-  color: white;
-}
-.card{
-  margin-right: 200px;
+
+.card.deck{
+  width: 70%;
 }
