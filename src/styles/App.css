@@ -42,7 +42,22 @@
   margin-bottom: 20px;
   margin-top: 80px;
 }
-
-.card.deck{
-  width: 70%;
+.card-deck{
+    width: auto;
+}
+.footer{
+    background-color: #343A40;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+.card{
+    height: auto;
+}
+.footer-title{
+    color: white;
+    text-align: center;
+    padding: 25px;
 }

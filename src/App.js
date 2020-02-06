@@ -11,24 +11,19 @@ function App() {
     <React.Fragment>
       <Navbar />
       <Jumbotron />
-      <div className="card-holder">
-        <div className="row card-deck justify-content-md-center">
-          <div className="col col-md-4 col-lg-3 col-sm-6">
-            <Card />
-          </div>
-          <div className="col col-md-4 col-lg-3 col-sm-6">
-            <Card />
-          </div>
-          <div className="col col-md-4 col-lg-3 col-sm-6">
-            <Card />
-          </div>
-          <div className="col col-md-4 col-lg-3 col-sm-6">
-            <Card />
-          </div>
-        </div>
-      </div>
-      <Footer />
-
+      <div className="container">
+				<div className="row">
+					<div className="card-deck">
+						<Card />
+						<Card />
+						<Card />
+						<Card />
+					</div>
+				</div>
+            </div>
+            <div className="footer">
+                <Footer />
+            </div>
     </React.Fragment>
   );
 }
